@@ -8,9 +8,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   const Handler = () =>{
-    setCount (count)
+    setCount (count + 1);
     
-      count = (count + 1);
+      count = (count)
     
   }
   
